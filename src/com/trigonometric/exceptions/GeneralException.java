@@ -8,7 +8,7 @@
  */
 package com.trigonometric.exceptions;
 
-public class GeneralException extends Exception {
+public class GeneralException extends Throwable  {
 
     public GeneralException(String errorMessage) {
         super(errorMessage);

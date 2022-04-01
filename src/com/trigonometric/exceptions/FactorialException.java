@@ -8,7 +8,7 @@
  */
 package com.trigonometric.exceptions;
 
-public class FactorialException extends Exception {
+public class FactorialException extends Throwable {
 
     public FactorialException(String errorMessage) {
         super(errorMessage);

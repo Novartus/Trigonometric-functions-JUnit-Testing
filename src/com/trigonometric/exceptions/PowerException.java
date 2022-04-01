@@ -8,7 +8,7 @@
  */
 package com.trigonometric.exceptions;
 
-public class PowerException extends Exception {
+public class PowerException extends Throwable {
 
     public PowerException(String errorMessage) {
         super(errorMessage);
